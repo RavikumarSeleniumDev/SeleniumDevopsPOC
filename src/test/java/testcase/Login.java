@@ -64,7 +64,7 @@ public static void testcase2() {
 		String TestABC = "Test" + new Random().nextInt(1000);
 		Login.driver.findElement(By.id("alias")).sendKeys(TestABC);
 		Login.driver.findElement(By.id("submitAddress")).click();
-		System.out.println("Test Case2 Passed - where user can create a new address");
+		System.out.println("Test Case2 Passed - where user can create a new address in addresses page");
 	}
 }
 @AfterMethod
