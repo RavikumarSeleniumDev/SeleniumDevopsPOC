@@ -48,7 +48,7 @@ public static void testcase2() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.className("login")).click();
 		driver.findElement(By.name("email")).sendKeys("testuser901@test.com");
-		driver.findElement(By.id("test")).sendKeys("test123");
+		driver.findElement(By.id("passwd")).sendKeys("test123");
 		driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
 		WebDriverWait wait = new WebDriverWait(Login.driver, 1);
 		wait.until(ExpectedConditions.visibilityOf(Login.driver.findElement(By.linkText("My addresses")))).click();
