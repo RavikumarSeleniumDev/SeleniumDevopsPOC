@@ -48,7 +48,7 @@ public static void testcase2() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.className("login")).click();
 		driver.findElement(By.name("email")).sendKeys("testuser901@test.com");
-		driver.findElement(By.id("passwd")).sendKeys("test123");
+		driver.findElement(By.id("test")).sendKeys("test123");
 		driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
 		WebDriverWait wait = new WebDriverWait(Login.driver, 1);
 		wait.until(ExpectedConditions.visibilityOf(Login.driver.findElement(By.linkText("My addresses")))).click();
@@ -64,7 +64,7 @@ public static void testcase2() {
 		String TestABC = "Test" + new Random().nextInt(1000);
 		Login.driver.findElement(By.id("alias")).sendKeys(TestABC);
 		Login.driver.findElement(By.id("submitAddress")).click();
-		System.out.println("Test Case2 Passed - where user can create a new address in addresses page");
+		System.out.println("Test Case2 Passed - where user can create a new test address");
 	}
 }
 @AfterMethod
