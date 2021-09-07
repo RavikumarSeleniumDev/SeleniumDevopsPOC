@@ -36,8 +36,7 @@ public static void  testcase1() {
 		driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.partialLinkText("sign out")).click();
-		
-		System.out.println("this test case passed where user can login and logout from application");
+		System.out.println("this test case passed user can login and logout from application");
 		
 	    }
 @Test
