@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46028" started-at="2021-09-06T19:36:32Z" finished-at="2021-09-06T19:37:18Z">
+  <suite name="Default suite" duration-ms="50221" started-at="2021-09-07T11:39:50Z" finished-at="2021-09-07T11:40:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46028" started-at="2021-09-06T19:36:32Z" finished-at="2021-09-06T19:37:18Z">
+    <test name="Default test" duration-ms="50221" started-at="2021-09-07T11:39:50Z" finished-at="2021-09-07T11:40:41Z">
       <class name="testcase.Login">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@3bfdc050]" name="browserLaunch" is-config="true" duration-ms="9857" started-at="2021-09-06T19:36:32Z" finished-at="2021-09-06T19:36:42Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@48fa0f47]" name="browserLaunch" is-config="true" duration-ms="10925" started-at="2021-09-07T11:39:50Z" finished-at="2021-09-07T11:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="FAIL" signature="testcase1()[pri:0, instance:testcase.Login@3bfdc050]" name="testcase1" duration-ms="14880" started-at="2021-09-06T19:36:42Z" finished-at="2021-09-06T19:36:56Z">
+        <test-method status="FAIL" signature="testcase1()[pri:0, instance:testcase.Login@48fa0f47]" name="testcase1" duration-ms="15686" started-at="2021-09-07T11:40:01Z" finished-at="2021-09-07T11:40:17Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"sign out"}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'PBP90MX', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'PBP90MX', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fde89dee32bfc4c9741be602fa1cb786
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6d6752a56179ca72dd07f70e332bf9
 *** Element info: {Using=partial link text, value=sign out}]]>
             </message>
             <full-stacktrace>
@@ -29,10 +29,10 @@ Session ID: fde89dee32bfc4c9741be602fa1cb786
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'PBP90MX', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'PBP90MX', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fde89dee32bfc4c9741be602fa1cb786
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6d6752a56179ca72dd07f70e332bf9
 *** Element info: {Using=partial link text, value=sign out}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -48,7 +48,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
 at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at testcase.Login.testcase1(Login.java:38)
+at testcase.Login.testcase1(Login.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,23 +80,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@3bfdc050]" name="tearDown" is-config="true" duration-ms="189" started-at="2021-09-06T19:36:57Z" finished-at="2021-09-06T19:36:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@48fa0f47]" name="tearDown" is-config="true" duration-ms="179" started-at="2021-09-07T11:40:17Z" finished-at="2021-09-07T11:40:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@3bfdc050]" name="browserLaunch" is-config="true" duration-ms="9532" started-at="2021-09-06T19:36:57Z" finished-at="2021-09-06T19:37:06Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@48fa0f47]" name="browserLaunch" is-config="true" duration-ms="9944" started-at="2021-09-07T11:40:17Z" finished-at="2021-09-07T11:40:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcase.Login@3bfdc050]" name="testcase2" duration-ms="11366" started-at="2021-09-06T19:37:06Z" finished-at="2021-09-06T19:37:18Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcase.Login@48fa0f47]" name="testcase2" duration-ms="13250" started-at="2021-09-07T11:40:27Z" finished-at="2021-09-07T11:40:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@3bfdc050]" name="tearDown" is-config="true" duration-ms="157" started-at="2021-09-06T19:37:18Z" finished-at="2021-09-06T19:37:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@48fa0f47]" name="tearDown" is-config="true" duration-ms="188" started-at="2021-09-07T11:40:40Z" finished-at="2021-09-07T11:40:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcase.Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
