@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,9 +21,9 @@ public class Login {
 	
 	@BeforeMethod
 	public void browserLaunch() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ravik\\workspace\\Poc_test\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\ravik\\eclipse-workspace\\Poc_test\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://automationpractice.com/index.php");
 		
@@ -30,7 +31,7 @@ public class Login {
 @Test
 public static void  testcase1() {
 		// TODO Auto-generated method stub
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.className("login")).click();
 		driver.findElement(By.name("email")).sendKeys("testuser901@test.com");
 		driver.findElement(By.id("passwd")).sendKeys("test123");
