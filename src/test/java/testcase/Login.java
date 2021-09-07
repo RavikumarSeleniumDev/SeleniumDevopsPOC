@@ -36,7 +36,6 @@ public static void  testcase1() {
 		driver.findElement(By.id("passwd")).sendKeys("test123");
 		driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.partialLinkText("sign out")).click();
 		System.out.println("this test case passed user can login and logout from application");
 		
 	    }
@@ -67,6 +66,7 @@ public static void testcase2() {
 		System.out.println("Test Case2 Passed - where user can create a new test address");
 	}
 }
+
 @AfterMethod
 public void tearDown() {
 	driver.close();
