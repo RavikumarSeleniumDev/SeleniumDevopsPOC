@@ -37,7 +37,7 @@ public static void  testcase1() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.partialLinkText("sign out")).click();
 		
-		System.out.println("test case 1 passed where user can login and logout from application");
+		System.out.println("this test case passed where user can login and logout from application");
 		
 	    }
 @Test
