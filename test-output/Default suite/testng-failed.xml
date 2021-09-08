@@ -6,7 +6,7 @@
       <class name="testcase.Login">
         <methods>
           <include name="tearDown"/>
-          <include name="testcase1"/>
+          <include name="testcase2"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- testcase.Login -->

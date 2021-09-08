@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64221" started-at="2021-09-07T17:58:59Z" finished-at="2021-09-07T18:00:04Z">
+  <suite name="Default suite" duration-ms="75584" started-at="2021-09-08T07:35:28Z" finished-at="2021-09-08T07:36:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64221" started-at="2021-09-07T17:58:59Z" finished-at="2021-09-07T18:00:04Z">
+    <test name="Default test" duration-ms="75584" started-at="2021-09-08T07:35:28Z" finished-at="2021-09-08T07:36:44Z">
       <class name="testcase.Login">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@7ee955a8]" name="browserLaunch" is-config="true" duration-ms="18556" started-at="2021-09-07T17:58:59Z" finished-at="2021-09-07T17:59:18Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@7ee955a8]" name="browserLaunch" is-config="true" duration-ms="27258" started-at="2021-09-08T07:35:28Z" finished-at="2021-09-08T07:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcase.Login@7ee955a8]" name="testcase1" duration-ms="6533" started-at="2021-09-07T17:59:18Z" finished-at="2021-09-07T17:59:24Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcase.Login@7ee955a8]" name="testcase1" duration-ms="5720" started-at="2021-09-08T07:35:56Z" finished-at="2021-09-08T07:36:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@7ee955a8]" name="tearDown" is-config="true" duration-ms="1300" started-at="2021-09-07T17:59:24Z" finished-at="2021-09-07T17:59:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@7ee955a8]" name="tearDown" is-config="true" duration-ms="1205" started-at="2021-09-08T07:36:01Z" finished-at="2021-09-08T07:36:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@7ee955a8]" name="browserLaunch" is-config="true" duration-ms="19066" started-at="2021-09-07T17:59:26Z" finished-at="2021-09-07T17:59:45Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:testcase.Login@7ee955a8]" name="browserLaunch" is-config="true" duration-ms="16370" started-at="2021-09-08T07:36:02Z" finished-at="2021-09-08T07:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcase.Login@7ee955a8]" name="testcase2" duration-ms="17223" started-at="2021-09-07T17:59:45Z" finished-at="2021-09-07T18:00:02Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcase.Login@7ee955a8]" name="testcase2" duration-ms="23768" started-at="2021-09-08T07:36:19Z" finished-at="2021-09-08T07:36:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@7ee955a8]" name="tearDown" is-config="true" duration-ms="1496" started-at="2021-09-07T18:00:02Z" finished-at="2021-09-07T18:00:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Login@7ee955a8]" name="tearDown" is-config="true" duration-ms="1220" started-at="2021-09-08T07:36:43Z" finished-at="2021-09-08T07:36:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
