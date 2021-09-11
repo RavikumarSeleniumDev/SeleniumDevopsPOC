@@ -22,7 +22,7 @@ public class Login {
 	public void browserLaunch() {
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\ravik\\eclipse-workspace\\Poc_test\\geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://automationpractice.com/index.php");
 		
@@ -36,7 +36,7 @@ public static void  testcase1() {
 		driver.findElement(By.id("passwd")).sendKeys("test123");
 		driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		System.out.println("this test case passed user can login and logout from application");
+		System.out.println("this test case passed user can login and logout from application test");
 		
 	    }
 @Test
@@ -63,7 +63,7 @@ public static void testcase2() {
 		String TestABC = "Test" + new Random().nextInt(1000);
 		Login.driver.findElement(By.id("alias")).sendKeys(TestABC);
 		Login.driver.findElement(By.id("submitAddress")).click();
-		System.out.println("Test Case2 Passed - where user can create a new test address");
+		System.out.println("Test Case2 Passed where user can create a new test address");
 	}
 }
 
